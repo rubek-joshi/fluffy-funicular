@@ -1,2 +1,2 @@
 export * from "./StatefulMotion";
-export * from "./Task";
+export * from "./MotionTask";

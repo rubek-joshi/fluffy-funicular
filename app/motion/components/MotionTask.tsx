@@ -1,7 +1,7 @@
 import * as motion from "framer-motion/client";
 
 // https://www.framer.com/motion/gestures/
-export const Task = () => {
+export const MotionTask = () => {
   return (
     <div className="flex gap-16 rounded-md border border-primary h-56 p-8">
       <div className="flex gap-14 h-full">

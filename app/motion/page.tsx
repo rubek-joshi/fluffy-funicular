@@ -1,5 +1,5 @@
 import * as motion from "framer-motion/client";
-import { StatefulMotion, Task } from "./components";
+import { StatefulMotion, MotionTask } from "./components";
 
 export default function MotionPage() {
   return (
@@ -28,7 +28,7 @@ export default function MotionPage() {
 
       <StatefulMotion />
 
-      <Task />
+      <MotionTask />
     </main>
   );
 }

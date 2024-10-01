@@ -1,4 +1,4 @@
-export default function MotionPage() {
+export default function ReorderPage() {
   return (
     <main className="container min-h-screen py-14">
       
