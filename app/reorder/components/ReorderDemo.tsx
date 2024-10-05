@@ -49,7 +49,7 @@ export const ReorderDemo = () => {
   }, []);
 
   return (
-    <div>
+    <div className="mb-6">
       <h1 className="text-4xl text-primary mb-6">ATLA &nbsp;Aura Rankings:</h1>
 
       <Reorder.Group

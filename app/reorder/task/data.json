@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "airline": "Aeroflot",
+    "formula": { "adult": "-Rs10", "rounding": 1 }
+  },
+  {
+    "id": 2,
+    "airline": "ASL Airlines Ireland",
+    "price": "2222-2222",
+    "tripType": "One Way",
+    "formula": { "adult": "+Rs100", "rounding": 0 }
+  }
+]
