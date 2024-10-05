@@ -18,5 +18,16 @@
         "titleBar.inactiveBackground": "#06265399",
         "titleBar.inactiveForeground": "#e7e7e799"
     },
-    "peacock.color": "#062653"
+    "peacock.color": "#062653",
+    "cSpell.words": [
+        "Aang",
+        "ATLA",
+        "Azula",
+        "Beifong",
+        "Iroh",
+        "Katara",
+        "Sokka",
+        "Toph",
+        "Zuko"
+    ]
 }
