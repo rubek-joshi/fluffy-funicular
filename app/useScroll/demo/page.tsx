@@ -1,4 +1,6 @@
+import { Button } from "@/components/ui/button";
 import { ScrollMarqueeText, ScrollToTop } from "./components";
+import Link from "next/link";
 
 const UseScrollMarqueeDemoPage = () => {
   return (
@@ -18,8 +20,12 @@ const UseScrollMarqueeDemoPage = () => {
         Pack my box with five dozen liquor jugs
       </ScrollMarqueeText>
 
-      <div className="h-screen flex items-end justify-center">
+      <div className="h-screen flex flex-col gap-4 justify-end items-center">
         <ScrollToTop />
+
+        <Link href="/useScroll/task">
+          <Button variant="ghost">Go to Task</Button>
+        </Link>
       </div>
     </main>
   );
