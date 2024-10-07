@@ -1,4 +1,5 @@
-import { LoremIpsum, PageScrollProgress } from "./components";
+import Link from "next/link";
+import { LoremIpsum, PageScrollProgress, ShinyButton } from "./components";
 
 export default function UseScrollPage() {
   return (
@@ -7,6 +8,10 @@ export default function UseScrollPage() {
 
       <div className="max-w-96">
         <LoremIpsum />
+
+        <Link href="/useScroll/task">
+          <ShinyButton>Go to Task</ShinyButton>
+        </Link>
       </div>
     </main>
   );

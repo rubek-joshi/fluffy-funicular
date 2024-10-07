@@ -1,6 +1,6 @@
 export const LoremIpsum = () => {
   return (
-    <article>
+    <article className="mb-6">
       <h1 className="text-7xl font-bold mb-4">Lorem Ipsum</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac
