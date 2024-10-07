@@ -9,8 +9,8 @@ export default function UseScrollPage() {
       <div className="max-w-96">
         <LoremIpsum />
 
-        <Link href="/useScroll/task">
-          <ShinyButton>Go to Task</ShinyButton>
+        <Link href="/useScroll/demo">
+          <ShinyButton>Go to Another Demo</ShinyButton>
         </Link>
       </div>
     </main>

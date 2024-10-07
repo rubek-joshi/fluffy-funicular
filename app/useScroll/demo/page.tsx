@@ -1,6 +1,6 @@
 import { ScrollMarqueeText, ScrollToTop } from "./components";
 
-const UseScrollTaskPage = () => {
+const UseScrollMarqueeDemoPage = () => {
   return (
     <main className="min-h-screen flex flex-col justify-center py-14">
       <div className="h-screen w-full flex flex-col justify-center items-center">
@@ -25,4 +25,4 @@ const UseScrollTaskPage = () => {
   );
 };
 
-export default UseScrollTaskPage;
+export default UseScrollMarqueeDemoPage;
