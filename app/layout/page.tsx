@@ -2,6 +2,7 @@ import Link from "next/link";
 import * as motion from "framer-motion/client";
 import { LayoutDemo } from "./components";
 
+// https://blog.maximeheckel.com/posts/framer-motion-layout-animations/
 export default function MotionPage() {
   return (
     <main className="container min-h-screen py-14 flex flex-col justify-center items-center">
