@@ -1,5 +1,3 @@
-import Link from "next/link";
-import * as motion from "framer-motion/client";
 import { EiffelTower } from "./EiffelTower";
 import { PopLayoutDemo } from "./PopLayoutDemo";
 

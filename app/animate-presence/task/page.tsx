@@ -8,20 +8,22 @@ export default function AnimatePresenceTaskPage() {
 
   return (
     <div className="container min-h-screen py-14 grid place-items-center">
-      <div className="h-96">
+      <div className="h-96 flex flex-col items-center">
         <Button
           onClick={() => setVisible((prevState) => !prevState)}
-          className="mb-4"
+          className="mb-8"
         >
           Toggle Message
         </Button>
+
         {isVisible && (
           <p
-            className={`${
+            className={`text-5xl leading-snug text-center ${
               isVisible ? styles.fadeIn : styles.fadeOut
             } transition animate-in duration-1000`}
           >
-            Benzema is black
+            5 hours of debugging can save <br />5 minutes of reading
+            documentation.
           </p>
         )}
       </div>

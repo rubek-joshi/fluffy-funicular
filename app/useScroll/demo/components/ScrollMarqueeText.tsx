@@ -18,6 +18,7 @@ export const ScrollMarqueeText = ({
     offset: ["start end", "end start"],
   });
 
+  // subscribe to change event
   scrollYProgress.on("change", (progress) => console.log(progress));
 
   const x = useTransform(

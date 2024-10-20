@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { AnimatePresenceDemo, PopLayoutDemo } from "./components";
+import { AnimatePresenceDemo } from "./components";
 import * as motion from "framer-motion/client";
 
 export default function AnimatePresencePage() {

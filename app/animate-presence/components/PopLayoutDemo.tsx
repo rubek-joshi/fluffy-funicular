@@ -15,7 +15,6 @@ export const PopLayoutDemo = () => {
 
   return (
     <div className="flex flex-col items-center">
-      <div className="flex flex-col"></div>
       <div className="flex gap-2 items-center mb-4">
         <label htmlFor="pop-layout-switch">Pop Layout</label>
         <Switch

@@ -8,10 +8,7 @@ export const MotionTask = () => {
         <p className="whitespace-nowrap">Animation Task:</p>
         <div className="h-full grid place-items-center">
           <motion.div
-            transition={{
-              easings: ["anticipate"],
-              duration: 1,
-            }}
+            transition={{ easings: ["anticipate"], duration: 1 }}
             className="bg-primary size-24"
           />
         </div>
