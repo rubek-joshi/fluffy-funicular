@@ -15,15 +15,8 @@ export const StatefulMotion = () => {
         <div className="h-full grid place-items-center">
           <motion.div
             initial={{ scale }}
-            animate={{
-              scale,
-              rotate,
-              borderRadius: `${radius}%`,
-            }}
-            transition={{
-              easings: ["anticipate"],
-              duration: 1,
-            }}
+            animate={{ scale, rotate, borderRadius: `${radius}%` }}
+            transition={{ easings: ["anticipate"], duration: 1 }}
             className="bg-primary size-24"
           />
         </div>
